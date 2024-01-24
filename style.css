@@ -1,0 +1,88 @@
+*,
+::before?
+::after {
+  box-sizing: ;
+  border-box;
+}
+body{
+  margin: 0;
+  font-family:,
+  'Montserrat',
+  sans-serif;
+
+}
+h1,
+h2,
+h3
+
+
+.hero{
+  min-height: 100vh;
+  display: flex;
+  justify-content:
+  center;
+}
+.conteiner{
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.hero_container{
+  display: grid;
+  grid-template-columns:
+  repeat(auto-fit,minmax(290px,1fr));
+  grid-gap: 20px;
+}
+.hero_about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero_title{
+  margin-bottom: 20px;
+  font-size: 45px;
+  line-height: 12;
+
+  position: relative;
+  top: 25%;  
+  width: 30em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);  
+}
+
+.desetungavon{
+  animation: typewriter 4s steps(440) 1s 1 normal both,
+  blinkTextCursor 500ms steps(440) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+}
+.hero_subtitle {
+  font-size: 32px;
+  font-weight: 400;
+}
+.hero_links{
+  display:flex;
+}
+.hero_link{
+  marging-right:40px;
+  font-size: 30px;
+  color: #000;
+  transition: color0.3s;
+}
+.hero_link:hover{
+  color:#4facfe;
+
+}
